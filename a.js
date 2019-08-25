@@ -35,6 +35,13 @@ app.get('/apiv3/xmlrequest/campaign/getdata', function(req, res) {
     } else{res.end("fatal external error [->] invalid campaign name and or id")}
 });
 
+app.get('/serviceworkers/prostAssert.js', function(req, res) {
+
+});
+app.get('/runtime/prostListener.js', function(req,res) {
+    
+});
+
 app.get('/*', function(req, res) {
     res.end("[RWND] Module 'RWPortal' Said -> External Error (Code 404 or Not Found)");
 })
