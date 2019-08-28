@@ -9,11 +9,9 @@ Prost Ads
 	const d = new XMLHttpRequest();
 	const a = '/a/g',
 		b = '/serviceworkers/prostAssert.js',
-		c = 'http://localhost:8080',
+		c = 'http://ec2-100-24-22-69.compute-1.amazonaws.com',
 		e = '/v3/amnt',
 		f = '/v3/all';
-	d.open('GET', c + a + '?url=' + window.location.href, false);
-	d.send(null);
 	d.open('GET', c + e, false);
 	d.send(null);
 	let gg = JSON.parse(d.responseText),

@@ -28,7 +28,7 @@ const PROST = {
 				'[prost-desc], .prost-desc {font-family: "Roboto", Helvetica, sans-serif;padding-top:12px;font-size:12px;margin: 8px 0; line-height: 1.35; color: #637381;font-weight: 300;width: 145px;bottom: 0; text-align: center;}' +
 				'[prost-fine], .prost-fine {font-family: "Roboto", Helvetica, sans-serif;font-size:9.5px;color: #C5CDD0;margin: 9px 0;text-transform: uppercase;line-height: 1.25;font-weight: 500; width: 145px;bottom: 0; text-align: center;}'
 		};
-		let _advert = document.querySelector('.prost');
+			let _advert = document.querySelector('.prost');
 		let af = document.createElement('style');
 		let theme = _advert.getAttribute('type');
 		if (theme === 'default') {
