@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "version": 2,
     "builds": [{ "src": "a.js", "use": "@now/node-server" }],
@@ -12,3 +13,6 @@
         }
     ]
   }
+=======
+{"name":"prost"}
+>>>>>>> 8bc8250cc07b6eddab5a3fd0cf53bde5edf5105f
