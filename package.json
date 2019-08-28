@@ -5,7 +5,9 @@
   "main": "a.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node a.js"
+    "start": "nodemon .",
+    "now-start": "node .",
+    "build": "nodemon ."
   },
   "repository": {
     "type": "git",
@@ -18,8 +20,11 @@
   },
   "homepage": "https://github.com/ryanrocket/prost#readme",
   "dependencies": {
+    "@now/node-server": "^0.8.2",
     "express": "^4.17.1",
     "fs": "0.0.1-security",
-    "multer": "^1.4.2"
+    "multer": "^1.4.2",
+    "nodemon": "^1.19.1",
+    "now": "^16.1.2"
   }
 }

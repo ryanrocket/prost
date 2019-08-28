@@ -1,0 +1,14 @@
+{
+    "version": 2,
+    "builds": [{ "src": "a.js", "use": "@now/node-server" }],
+    "routes": [
+        {
+            "src": "/apiv3/xmlrequest/campaign/getimg",
+            "dest": "a.js"
+        },
+        {
+            "src": "/apiv3/xmlrequest/campaign/getdata",
+            "dest": "a.js"
+        }
+    ]
+  }

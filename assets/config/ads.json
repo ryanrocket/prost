@@ -1,25 +1,39 @@
 {
-    "total": 1,
-    "version": "v1.0.8",
-    "camps": ["headersetter"],
-    "content": {
-        "headersetter": {
-            "campaignName": "headersetter",
-            "companyName": "Header Setter",
-            "coid": "prostv3chsdtruer83he738e738fh",
-            "type": "Open Source",
-            "mnImg": "HeaderSetterAdvert.png",
-            "fType": "png",
-            "cDescription": "Quickly Create Clean, Effective HTML Head's Using Header Setter",
-            "premium": false,
-            "scaleTo": "default or 120x100"
-        }
-    },
-    "settings": {
-        "resizeTo": "120x100",
-        "resize": true,
-        "allowOutside": true,
-        "forceHTTPS": false,
-        "XSSCOP": true
-    }
+	"total": 2,
+	"version": "v1.0.8",
+	"camps": [ "headersetter", "ryanwans" ],
+	"content": {
+		"headersetter": {
+			"campaignName": "headersetter",
+			"companyName": "Header Setter",
+			"coid": "prostv3chsdtruer83he738e738fh",
+			"type": "Open Source",
+			"mnImg": "HeaderSetterAdvert.png",
+			"campURL": "https://headersetter.us",
+			"fType": "png",
+			"cDescription": "Quickly Create Clean, Effective HTML Head's Using Header Setter.",
+			"premium": false,
+			"scaleTo": "default or 120x100"
+		},
+		"ryanwans": {
+			"campaignName": "ryanwans",
+			"companyName": "Ryan Wans",
+			"coid": "prostv3crwdtruer836gt666e738fh",
+			"type": "Personal Portfolio",
+			"mnImg": "ryanwans.png",
+			"campURL": "https://ryanwans.com",
+			"fType": "png",
+			"cDescription": "Ryan Wans is a freelance fullstack software developer using modern-day technologies.",
+			"premium": false,
+			"scaleTo": "default or 120x100"
+		}
+	},
+
+	"settings": {
+		"resizeTo": "120x100",
+		"resize": true,
+		"allowOutside": true,
+		"forceHTTPS": false,
+		"XSSCOP": true
+	}
 }
