@@ -40,6 +40,7 @@ Prost Ads
 				setTimeout(function() {
 					PROST.__draft(as.ab, c + as.bb, as.ba);
 				}, 100);
+				this.d();
 			},
 			c: function(k) {
 				// Cont
@@ -53,6 +54,10 @@ Prost Ads
 				d.send(null);
 				ba = d.responseText;
 				return { ab, bb, ba };
+			},
+			d: function() {
+				let a = new Date();
+				document.cookie('__prost_reg=' + a);
 			}
 		};
 	// event
